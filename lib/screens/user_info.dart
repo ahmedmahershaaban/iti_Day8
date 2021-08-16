@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iti_demo_http_deo/model/user.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 import '../utilites.dart';
 
@@ -15,8 +15,8 @@ class UserInfo extends StatefulWidget {
 }
 
 class _UserInfoState extends State<UserInfo> {
-  void _launchURL(String url) async =>
-      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+  // void _launchURL(String url) async =>
+  //     await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class _UserInfoState extends State<UserInfo> {
                 SizedBox(height: 8),
                 InkWell(
                   onTap: () {
-                    _launchURL("tel:${widget.users.phone}");
+                    launchURL("tel:${widget.users.phone}");
                   },
                   child: Text("Phone: ${widget.users.phone}"),
                 ),

@@ -4,7 +4,6 @@ import 'package:iti_demo_http_deo/screens/posts_screen.dart';
 import 'package:iti_demo_http_deo/screens/user_info.dart';
 import 'package:iti_demo_http_deo/services/user_service.dart';
 import 'package:iti_demo_http_deo/utilites.dart';
-import 'widget/card.dart';
 
 class UserScreen extends StatefulWidget {
   const UserScreen({Key? key}) : super(key: key);

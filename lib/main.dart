@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iti_demo_http_deo/screens/user_info.dart';
 import 'package:iti_demo_http_deo/screens/user_screen.dart';
 
 void main() {
